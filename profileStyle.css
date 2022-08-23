@@ -1,0 +1,89 @@
+body{
+background-image: url("molineux.jpeg");
+background-size: cover;
+background-color: #cccccc;}
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+  }
+  
+  .fa:hover {
+    opacity: 0.7;
+  }
+  
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+body{
+
+
+    
+    color: azure;
+font-family: Arial, Helvetica, sans-serif;
+    font-size: 16pt;
+    font-weight: lighter;}
+h1{
+    color: goldenrod}
+.box-1{background-color: antiquewhite;
+    border-top: 5px red;
+    border-bottom: 5px red;
+    border-left: 5px red;
+    border-right: 5px red;
+    border: 5px red;
+    border-style: ridge;
+    color: black;
+}
+
+.box-2{background-color: antiquewhite;
+border-top: 5px red;
+border-bottom: 5px red;
+border-left: 5px red;
+border-right: 5px red;
+border: 5px red;
+border-style: ridge;
+color:black;}
+.box-3{background-color: antiquewhite;
+border-top: 5px rgb(255, 166, 0);
+border-bottom: 5px red;
+border-left: 5px red;
+border-right: 5px red;
+border: 5px red;
+border-style: ridge;
+color: black;}
+.containter{width: 80%;
+    margin: auto;}
+    
+    .box-4{ background-color: antiquewhite;
+        border-top: 5px red;
+        border-bottom: 5px red;
+        border-left: 5px red;
+        border-right: 5px red;
+        border: 5px red;
+        border-style: ridge;
+        color: black;  }
+
+        #more {display: none;}
+        function myFunction(){var dots = document.getElementById("dots");
+            var moreText = document.getElementById("more");
+            var btnText = document.getElementById("myBtn");}
+          
+            if {dots.style.display === "none") 
+              dots.style.display = "inline";
+              btnText.innerHTML = "Read more";
+              moreText.style.display = "none";
+            } else {
+              dots.style.display = "none";
+              btnText.innerHTML = "Read less";
+              moreText.style.display = "inline";
+            }
+          }
